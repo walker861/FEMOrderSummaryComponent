@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    font-size: 62.5%;
+}
+
+body {    
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+
+    background-repeat: repeat-x;
+    background-image: url("./images/pattern-background-desktop.svg");
+    background-color: hsl(225, 100%, 94%);
+    background-size: 100% 45%;
+}
+
+.container {
+    background-color:hsl(0, 0%, 100%);
+    border-radius: 2.4rem;
+    margin: auto;
+    margin-top: 5vh;
+    display: grid;
+    row-gap: 2.4rem;
+    line-height: 3rem;
+    place-content: center;
+    place-items: center;
+    width: 40rem;
+    box-shadow: dimgray 0.5rem 0.5rem 2rem 0.1rem;
+}
+
+.main-img {
+    border-radius: 2.4rem 2.4rem 0 0;
+    width: 100%;
+}
+
+h1 {
+    color: hsl(0, 0%, 0%);
+    font-weight: 900;
+}
+
+.description {
+    padding: 0.8rem 3.2rem;
+}
+
+span {
+    color: hsl(0, 0%, 0%);
+    font-weight: 700;
+}
+
+.subscription-box {
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 0.8rem;
+    padding: 1.6rem;
+    line-height: 2rem;
+    width: 80%;
+    display: flex;
+    place-content: start;
+    place-items: center;
+}
+
+.subscription-content {
+    padding-inline: 1.6rem 7.2rem;
+}
+
+a {
+    cursor: pointer;
+    color: hsl(245, 75%, 52%);
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+a:hover{ 
+    color: hsl(245, 75%, 70%);
+}
+
+button {
+    border: none;
+    border-radius: 0.8rem;
+    font-weight: 700;
+    padding: 1.2rem 7.2rem;
+    cursor: pointer;
+    width: 80%;
+}
+
+.pay {
+    background-color: hsl(245, 75%, 52%);
+    color: hsl(0, 0%, 100%);
+    box-shadow: 0.5rem 0.5rem 2rem 0.1rem hsl(225, 100%, 90%);
+}
+
+.pay:hover {
+    background-color: hsl(245, 75%, 70%); 
+}
+
+.cancel {
+    background-color:hsl(0, 0%, 100%);
+    color: hsl(224, 23%, 55%);
+    margin-bottom: 5rem;
+}
+
+.cancel:hover {
+    color: hsl(224, 23%, 20%);
+}
+
+.attribution { 
+    padding: 1.5rem;
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
