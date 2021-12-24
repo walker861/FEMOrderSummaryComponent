@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/Screenshot.jpg)
+![](url"https://github.com/walker861/order-summary-component/blob/0081cc3a073b81a705402df5620a5ccea0b7ad49/design/Screenshot.png")
 
 
 ### Links
