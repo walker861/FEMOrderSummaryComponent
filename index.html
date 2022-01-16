@@ -1,43 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+    <link rel="stylesheet" href="style.css">
+    <title>Frontend Mentor | Order summary card</title>
+  </head>
 
-  <title>Frontend Mentor | Order summary card</title>
+  <body>
+    <main class="card">
+      <img class="card__img" src="./images/illustration-hero.svg" alt="illustration of person dancing to music">
 
-</head>
+      <section class="card__content">
+        <div class="card__description">
+          <h1>Order Summary</h1>
+          <p>You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere
+          you like!</p>
+        </div><!--class="card__description"-->
 
-<body>
-  <div class="container">
-    <img class="main-img" src="./images/illustration-hero.svg" alt="illustration of person dancing to music">
-    
-    <h1>Order Summary</h1>
+        <div class="card__subscription">
+          <img class="icon" src="./images/icon-music.svg" alt="2 beamed eighth note icon">
+          <span>Annual Plan</span>
 
-    <p class="description">You can now listen to millions of songs, audiobooks, and podcasts on any device anywhere you like!</p>
-    
-    <div class="subscription-box">
-      <img class="note" src="./images/icon-music.svg" alt="2 beamed eighth note icon">
-      
-      <div class="subscription-content">  
-        <span>Annual Plan</span>
-        <p class="price">$59.99/year</p>
-      </div><!--class="subscription-content"-->
-      
-      <a href="">Change</a>
-    </div><!--class="subscription-box"-->
+          <div class="card__price">
+            <p>$59.99/year</p>
+            <a href="">Change</a>
+          </div><!--class="card__price"-->
+        
+        </div><!--class="card__subscription"-->
 
-    <button class="pay">Proceed to Payment</button>
-    <button class="cancel">Cancel Order</button>
-  </div> <!--class="container"-->
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Brandon Walker</a>.
-  </div><!--footer attribution-->
+        <button class="pay">Proceed to Payment</button>
+        <button class="cancel">Cancel Order</button>
+      </section><!--class="card__content"-->
 
-</body>
+
+    </main><!--class="card"-->
+
+    <footer class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Brandon Walker</a>.
+    </footer>
+  </body>
+
 </html>
