@@ -112,7 +112,7 @@ button {
 .cancel {
 	background-color: hsl(0, 0%, 100%);
 	color: hsl(224, 23%, 55%);
-	margin-bottom: 2rem;
+	margin-block: 1.5rem 3rem;
 }
 
 .cancel:hover {
