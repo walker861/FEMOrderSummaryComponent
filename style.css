@@ -67,7 +67,13 @@ span {
 .card__price {
 	display: flex;
 	flex-direction: column;
+	place-content: center;
 	line-height: 0.25rem;
+}
+
+.card__price p,
+.card__price a {
+	margin: 0.5em;
 }
 
 a {
