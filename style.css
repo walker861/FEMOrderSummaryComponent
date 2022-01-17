@@ -92,7 +92,7 @@ button {
 	border: none;
 	border-radius: 0.5rem;
 	font-weight: 700;
-	margin-top: 2rem;
+
 	padding: 1rem 3.5rem;
 	cursor: pointer;
 	width: 90%;
@@ -102,6 +102,7 @@ button {
 	background-color: hsl(245, 75%, 52%);
 	color: hsl(0, 0%, 100%);
 	box-shadow: 0.25rem 0.25rem 1rem 0.1rem hsl(225, 100%, 90%);
+	margin-top: 2rem;
 }
 
 .pay:hover {
